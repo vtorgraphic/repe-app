@@ -4,7 +4,7 @@ import { ChevronRight, Dumbbell, Users } from 'lucide-react'
 export default function RoleSelect() {
   const nav = useNavigate()
   const options = [
-    { role: 'cliente', icon: Dumbbell, title: 'Soy cliente', text: 'Sigue tu rutina, tu dieta y tu progreso con tu entrenador.', ready: false },
+    { role: 'cliente', icon: Dumbbell, title: 'Soy cliente', text: 'Sigue tu rutina, tu dieta y tu progreso con tu entrenador.', ready: true },
     { role: 'entrenador', icon: Users, title: 'Soy entrenador', text: 'Gestiona clientes, rutinas, dietas y tu agenda en un solo lugar.', ready: true },
   ]
   return (

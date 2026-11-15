@@ -14,7 +14,13 @@ Es una app web pensada para el móvil (en escritorio se muestra dentro de un mar
   - Calendario semanal y mensual, agendar sesiones y citas por confirmar.
   - Rutinas y dietas: biblioteca, asistentes paso a paso para crearlas, asignar, editar (con aviso si ya está asignada) y duplicar.
   - Perfil, servicios, plan y pagos, notificaciones y mensajería.
-- **App del cliente** (paleta verde): en construcción.
+- **App del cliente** (paleta verde):
+  - Inicio con el entrenamiento del día, racha y hábitos para marcar.
+  - Entrenamiento paso a paso: series con objetivo y repeticiones hechas, temporizador de descanso, video de técnica, observaciones, resumen con volumen total y pantalla de logro.
+  - Marketplace con búsqueda y filtros, perfil del entrenador, chat antes de contratar y contratación en 2 pasos. La solicitud queda pendiente y solo se cobra cuando el entrenador acepta (vence a los 3 días).
+  - Agenda semanal y mensual: desplegar entrenos, agendar citas y mover un entreno de día.
+  - Progreso: semana, logros, gráficas por ejercicio y de peso corporal, récords, fotos y medidas.
+  - Perfil: mi entrenador, mi información, pagos, notificaciones, privacidad, idioma y unidades, y ayuda.
 
 ## Cómo correrlo en tu computador
 

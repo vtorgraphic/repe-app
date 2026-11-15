@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Outlet, Route, Routes } from 'react-router-dom
 import { StatusBar } from './ui'
 import RoleSelect from './RoleSelect'
 import TrainerRoutes from './trainer/TrainerRoutes'
+import ClientRoutes from './client/ClientRoutes'
 
 function Phone() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route element={<Phone />}>
           <Route index element={<RoleSelect />} />
           <Route path="entrenador/*" element={<TrainerRoutes />} />
+          <Route path="cliente/*" element={<ClientRoutes />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>
